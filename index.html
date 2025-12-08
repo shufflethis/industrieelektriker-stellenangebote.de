@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoltKarriere | Industrieelektrik Jobs & Vermittlung</title>
+    <meta name="description" content="VoltKarriere verbindet qualifizierte Industrieelektriker mit Top-Arbeitgebern. Spezialisiert auf Automatisierungstechnik, Betriebstechnik und Schaltschrankbau." />
+    <meta name="keywords" content="Industrieelektriker, Elektroniker Betriebstechnik, Jobbörse Elektrotechnik, SPS Programmierung, Schaltschrankbau Jobs" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+              },
+              accent: {
+                500: '#f97316', // Orange for industrial highlights
+                600: '#ea580c',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Structured Data for GEO (Generative Engine Optimization) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EmploymentAgency",
+      "name": "VoltKarriere",
+      "image": "https://picsum.photos/id/1/200/200",
+      "description": "Spezialisierte Personalvermittlung für Industrieelektrik und Automatisierungstechnik.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Industriestraße 1",
+        "addressLocality": "Berlin",
+        "postalCode": "10115",
+        "addressCountry": "DE"
+      }
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-brand-500 selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
