@@ -3,7 +3,15 @@ import { GoogleGenAI } from "@google/genai";
 // Ensure API Key is available
 const API_KEY = process.env.API_KEY || '';
 
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+// Lazy initialization to prevent crash when API key is not set
+let _ai: GoogleGenAI | null = null;
+function getAI(): GoogleGenAI | null {
+  if (!API_KEY) return null;
+  if (!_ai) {
+    _ai = new GoogleGenAI({ apiKey: API_KEY });
+  }
+  return _ai;
+}
 
 export const generateJobDescription = async (
   jobTitle: string,
@@ -30,7 +38,7 @@ export const generateJobDescription = async (
       Bitte nutze Markdown-Formatierung für Überschriften und Listen. Der Tonfall soll professionell, aber einladend für Fachkräfte der Industrie sein.
     `;
 
-    const response = await ai.models.generateContent({
+    const response = await getAI()!.models.generateContent({
       model: 'gemini-2.5-flash',
       contents: prompt,
       config: {
@@ -48,7 +56,7 @@ export const generateJobDescription = async (
 };
 
 export const optimizeCV = async (cvText: string): Promise<string> => {
-    if (!API_KEY) {
+  if (!API_KEY) {
     return "API Key fehlt.";
   }
 
@@ -62,11 +70,11 @@ export const optimizeCV = async (cvText: string): Promise<string> => {
       Antworte direkt mit den 3 Punkten.
     `;
 
-     const response = await ai.models.generateContent({
+    const response = await getAI()!.models.generateContent({
       model: 'gemini-2.5-flash',
       contents: prompt,
     });
-    
+
     return response.text || "Keine Tipps verfügbar.";
   } catch (error) {
     console.error("Gemini API Error:", error);
