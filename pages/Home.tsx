@@ -40,32 +40,32 @@ const FEATURED_JOBS: Job[] = [
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col gap-16 pb-20">
-      
+
       {/* Hero Section */}
       <section className="relative bg-slate-900 overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="https://picsum.photos/id/1073/1920/1080" 
-            alt="Industrieelektrik Hintergrund" 
+          <img
+            src="https://picsum.photos/id/1073/1920/1080"
+            alt="Industrieelektrik Hintergrund"
             className="w-full h-full object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent"></div>
         </div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="md:w-2/3 lg:w-1/2">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6">
-              Wir vernetzen <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-brand-200">Spannung</span> mit Zukunft.
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+              Wir vernetzen <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 to-accent-500">Spannung</span> mit Zukunft.
             </h1>
-            <p className="text-xl text-slate-300 mb-8 leading-relaxed">
+            <p className="text-xl text-slate-200 mb-8 leading-relaxed">
               Deutschlands führende Jobbörse für Industrieelektriker, Elektroniker und Mechatroniker. Finden Sie Top-Arbeitgeber in der Industrie 4.0.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/jobs" className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-lg text-white bg-brand-600 hover:bg-brand-700 transition-all shadow-lg hover:shadow-brand-500/25">
                 Jobs finden <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link to="/arbeitgeber" className="inline-flex items-center justify-center px-8 py-4 border border-slate-600 text-base font-bold rounded-lg text-slate-200 bg-slate-800/50 hover:bg-slate-800 hover:text-white transition-all backdrop-blur-sm">
+              <Link to="/arbeitgeber" className="inline-flex items-center justify-center px-8 py-4 border-2 border-slate-400 text-base font-bold rounded-lg text-white bg-white/10 hover:bg-white/20 hover:border-white transition-all backdrop-blur-sm">
                 Für Arbeitgeber
               </Link>
             </div>
@@ -166,7 +166,7 @@ const Home: React.FC = () => {
               <JobCard key={job.id} job={job} />
             ))}
           </div>
-          
+
           <div className="mt-8 text-center md:hidden">
             <Link to="/jobs" className="btn btn-primary w-full justify-center">
               Alle Jobs anzeigen
@@ -179,9 +179,9 @@ const Home: React.FC = () => {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white rounded-2xl shadow-sm border border-slate-100">
         <div className="prose prose-slate max-w-none">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Karriere in der Industrieelektrik: Ein Zukunftsmarkt</h2>
-          
+
           <p className="text-lg leading-relaxed text-slate-700 mb-6">
-            Die Industrieelektrik bildet das Rückgrat der deutschen Wirtschaft. In Zeiten von Industrie 4.0, Energiewende und zunehmender Automatisierung sind Fachkräfte gefragter denn je. 
+            Die Industrieelektrik bildet das Rückgrat der deutschen Wirtschaft. In Zeiten von Industrie 4.0, Energiewende und zunehmender Automatisierung sind Fachkräfte gefragter denn je.
             <strong>Elektroniker für Betriebstechnik</strong> und <strong>Automatisierungstechniker</strong> gehören zu den Berufsgruppen mit der höchsten Arbeitsplatzsicherheit und überdurchschnittlichen Gehaltssteigerungen.
           </p>
 
@@ -197,16 +197,16 @@ const Home: React.FC = () => {
           </ul>
 
           <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-4">Häufige Fragen (FAQ)</h3>
-          
+
           <div className="space-y-6">
             <div>
               <h4 className="font-bold text-slate-900 mb-2">Wie hoch ist das Gehalt als Industrieelektriker?</h4>
               <p className="text-slate-700">
-                Das Einstiegsgehalt liegt in Deutschland typischerweise zwischen <strong>38.000€ und 45.000€</strong> brutto jährlich. 
+                Das Einstiegsgehalt liegt in Deutschland typischerweise zwischen <strong>38.000€ und 45.000€</strong> brutto jährlich.
                 Mit Berufserfahrung und Spezialisierung (z.B. SPS-Technik) sind Gehälter bis zu <strong>70.000€</strong> (oft inkl. Schichtzulagen) in der Automobil- oder Chemieindustrie üblich.
               </p>
             </div>
-            
+
             <div>
               <h4 className="font-bold text-slate-900 mb-2">Welche Qualifikationen brauche ich?</h4>
               <p className="text-slate-700">
