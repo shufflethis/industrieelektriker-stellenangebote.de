@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# industrieelektriker-stellenangebote.de - Industrieelektriker Stellenangebote
+
+> industrieelektriker-stellenangebote.de ist ein spezialisiertes Jobportal fuer Industrieelektriker-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Industrieelektriker
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://industrieelektriker-stellenangebote.de
+- Arbeitgeber-Kontakt: https://industrieelektriker-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://industrieelektriker-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Industrieelektriker-Stellenangebote
+- Karriere-Ratgeber fuer Industrieelektriker
+- Gehaltsvergleiche und Brancheninformationen
