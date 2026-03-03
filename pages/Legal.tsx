@@ -8,13 +8,13 @@ export const Impressum: React.FC = () => (
     <h3>VoltKarriere GmbH</h3>
     <p>
       Industriestraße 1<br />
-      10115 Berlin<br />
+      10437 Berlin<br />
       Deutschland
     </p>
 
     <h3>Kontakt</h3>
     <p>
-      Telefon: +49 (0) 30 12345678<br />
+      Telefon: +49 30 403 6654 32<br />
       E-Mail: kontakt@voltkarriere.de
     </p>
 
@@ -22,20 +22,19 @@ export const Impressum: React.FC = () => (
     <p>
       Eintragung im Handelsregister.<br />
       Registergericht: Amtsgericht Berlin-Charlottenburg<br />
-      Registernummer: HRB 123456
-    </p>
+      Registernummer: HRB 162557 B</p>
 
     <h3>Umsatzsteuer-ID</h3>
     <p>
       Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-      DE 123 456 789
+      DE298885799
     </p>
 
     <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
     <p>
-      Max Mustermann<br />
+      Thomas Sander<br />
       Industriestraße 1<br />
-      10115 Berlin
+      10437 Berlin
     </p>
 
     <h3>Haftungsausschluss</h3>
