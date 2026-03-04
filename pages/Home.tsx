@@ -7,33 +7,228 @@ import { Job } from '../types';
 const FEATURED_JOBS: Job[] = [
   {
     id: '1',
-    title: 'Industrieelektriker (m/w/d) Betriebstechnik',
-    company: 'Siemens Energy',
-    location: 'Berlin',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'zeitkraft Gesellschaft für Personalservice mbH',
+    location: 'München',
     type: 'Vollzeit',
-    salary: '55.000€ - 65.000€',
-    description: 'Wartung und Instandhaltung von Produktionsanlagen, Fehlersuche an SPS-Steuerungen (S7/TIA Portal) und Durchführung von DGUV V3 Prüfungen.',
-    postedAt: '2 Tagen'
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-04'
   },
   {
     id: '2',
-    title: 'Elektroniker für Automatisierungstechnik',
-    company: 'Tesla Gigafactory',
-    location: 'Grünheide',
-    type: 'Schichtarbeit',
-    salary: '60.000€ - 72.000€',
-    description: 'Betreuung der Roboterzellen, Optimierung von Prozessabläufen und Installation neuer Fertigungslinien in einem hochmodernen Umfeld.',
-    postedAt: '5 Stunden'
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'JobImpulse Süd GmbH Mainz',
+    location: 'Klein-Winternheim',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-03'
   },
   {
     id: '3',
-    title: 'Schaltschrankverdrahter (m/w/d)',
-    company: 'Rittal GmbH',
-    location: 'Herborn',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'Neo Temp GmbH',
+    location: 'Cottbus',
     type: 'Vollzeit',
-    salary: '45.000€ - 52.000€',
-    description: 'Aufbau und Verdrahtung von Schaltschränken nach Schaltplan, mechanische Bearbeitung von Montageplatten und Qualitätskontrolle.',
-    postedAt: '1 Woche'
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '4',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'Neo Temp GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '5',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'PersEH GmbH',
+    location: 'Aachen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '6',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'teamkompetent GmbH Personaldienstleistungen',
+    location: 'Bad Wörishofen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '7',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'JobImpulse Nord GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '8',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'DEKRA Arbeit GmbH',
+    location: 'Lünen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '9',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'Orizon GmbH, Niederlassung Osnabrück',
+    location: 'Melle, Wiehengeb',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '10',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'König Fachpersonal GmbH & Co KG, Niederlassung Erfurt',
+    location: 'Erfurt',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '11',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'zeitkraft Gesellschaft für Personalservice mbH',
+    location: 'Landsberg am Lech',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '12',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Pirmasens',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-01'
+  },
+  {
+    id: '13',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Finnentrop',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-01'
+  },
+  {
+    id: '14',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Kassel, Hessen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '15',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Buchholz in der Nordheide',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '16',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'RÜBSAM Fachkräfte GmbH & Co. KG',
+    location: 'Salzgitter',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '17',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'PerSe-Partner GmbH',
+    location: 'Remscheid',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '18',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Bodelshausen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-26'
+  },
+  {
+    id: '19',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Salzgitter',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-26'
+  },
+  {
+    id: '20',
+    title: 'Industrieelektriker/in (m/w/d)',
+    company: 'Adecco Personaldienstleistungen GmbH',
+    location: 'Norderstedt',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker/in (m/w/d)',
+    postedAt: '2026-02-26'
+  },
+  {
+    id: '21',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'I. K.Hofmann GmbH',
+    location: 'Eisenhüttenstadt',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-25'
+  },
+  {
+    id: '22',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'Personal Service PSH Magdeburg GmbH',
+    location: 'Magdeburg',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-25'
+  },
+  {
+    id: '23',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'JobImpulse Süd GmbH Mainz',
+    location: 'Wiesbaden',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-25'
+  },
+  {
+    id: '24',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'GeAT mbH Aschersleben',
+    location: 'Sangerhausen',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-02-25'
+  },
+  {
+    id: '25',
+    title: 'Industrieelektriker/in (m/w/d)',
+    company: 'Praxis Personalmanagement GmbH',
+    location: 'Rostock',
+    type: 'Vollzeit',
+    description: 'Industrieelektriker/in (m/w/d)',
+    postedAt: '2026-02-23'
   }
 ];
 
