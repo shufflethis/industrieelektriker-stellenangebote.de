@@ -1,19 +1,34 @@
 # HR-UPDATER: v1.0
 # industrieelektriker-stellenangebote.de - Industrieelektriker Stellenangebote
 
-> industrieelektriker-stellenangebote.de ist ein spezialisiertes Jobportal fuer Industrieelektriker-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> industrieelektriker-stellenangebote.de ist ein spezialisiertes Jobportal fuer Industrieelektriker-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH, Berlin.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Industrieelektriker
+- Spezialisiertes Jobportal fuer Industrieelektriker und Elektroniker fuer Betriebstechnik
 - Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
+- Gezielte Reichweite fuer Arbeitgeber im Bereich Industrieelektrik
+- Taeglich aktualisierte Stellenangebote aus ganz Deutschland
+- Betreiber: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
+
+## Zielgruppen
+- Industrieelektriker (m/w/d) auf Jobsuche
+- Elektroniker fuer Betriebstechnik
+- Mechatroniker und Automatisierungstechniker
+- Arbeitgeber aus Industrie, Automobilbranche, Chemie, Maschinenbau und Energieversorgung
+
+## Inhalte
+- Aktuelle Industrieelektriker-Stellenangebote in allen deutschen Grossstaedten
+- Karriere-Ratgeber fuer Industrieelektriker
+- Gehaltsvergleiche und Brancheninformationen
+- FAQ zu Ausbildung, Weiterbildung und Karrierewegen
+- Informationen fuer Arbeitgeber zur Fachkraeftegewinnung
+
+## Staedte mit Stellenangeboten
+Berlin, Hamburg, Muenchen, Koeln, Frankfurt am Main, Stuttgart, Duesseldorf, Leipzig, Dortmund, Essen, Bremen, Dresden, Hannover, Nuernberg, Duisburg, Bochum, Wuppertal, Mannheim, Karlsruhe, Augsburg, Wolfsburg, Ingolstadt, Ludwigshafen, Leverkusen
 
 ## Kontakt
 - Website: https://industrieelektriker-stellenangebote.de
-- Arbeitgeber-Kontakt: https://industrieelektriker-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://industrieelektriker-stellenangebote.de/kontakt-bewerber
-
-## Inhalte
-- Aktuelle Industrieelektriker-Stellenangebote
-- Karriere-Ratgeber fuer Industrieelektriker
-- Gehaltsvergleiche und Brancheninformationen
+- E-Mail: info@socialmediaventure.com
+- Telefon: +49 30 959 988 700
+- Arbeitgeber-Kontakt: https://industrieelektriker-stellenangebote.de/#/arbeitgeber

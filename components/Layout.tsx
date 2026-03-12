@@ -134,7 +134,7 @@ const Layout: React.FC = () => {
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} VoltKarriere GmbH. Alle Rechte vorbehalten. Entwickelt mit React & Gemini AI.
+          &copy; {new Date().getFullYear()} Social Media Venture GmbH. Alle Rechte vorbehalten.
         </div>
       </footer>
     </div>
