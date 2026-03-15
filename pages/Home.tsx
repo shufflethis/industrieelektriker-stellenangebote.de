@@ -7,253 +7,228 @@ import { Job } from '../types';
 const FEATURED_JOBS: Job[] = [
   {
     id: '1',
-    title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
-    company: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
-    location: 'Salzgitter',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
-    postedAt: '2026-03-08'
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedAt: '2026-03-15'
   },
   {
     id: '2',
-    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    company: 'HUK-COBURG Versicherungsgruppe',
-    location: 'Weißenburg i. Bayern',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    postedAt: '2026-03-08'
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
   },
   {
     id: '3',
-    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    company: 'HUK-COBURG Versicherungsgruppe',
-    location: 'Nürnberg',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
-    postedAt: '2026-03-08'
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
   },
   {
     id: '4',
-    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    company: 'Sikla GmbH',
-    location: 'Nürnberg',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    postedAt: '2026-03-08'
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
   },
   {
     id: '5',
-    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    company: 'Sikla GmbH',
-    location: 'München',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
-    postedAt: '2026-03-08'
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
   },
   {
     id: '6',
-    title: 'Facility Manager (m/w/d) im Bereich People, Culture & Places',
-    company: 'Star Finanz GmbH',
-    location: 'Hamburg',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Facility Manager (m/w/d) im Bereich People, Culture & Places',
-    postedAt: '2026-03-08'
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedAt: '2026-03-15'
   },
   {
     id: '7',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'MANPOWER GmbH & Co. KG',
-    location: 'Leipzig',
+    title: 'INDUSTRIEELEKTRIKER (m/w/d)',
+    company: 'AB Technical Services GmbH & Co. KG',
+    location: 'Kronau, Baden',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-07'
+    description: 'INDUSTRIEELEKTRIKER (m/w/d)',
+    postedAt: '2026-03-13'
   },
   {
     id: '8',
-    title: 'Industrieelektriker/in (m/w/d)',
-    company: 'Antek GmbH',
-    location: 'Karlsruhe, Baden',
+    title: 'Industrieelektriker*in',
+    company: 'Moog GmbH',
+    location: 'Böblingen',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker/in (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-13'
   },
   {
     id: '9',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'PERSO PLANKONTOR Nord GmbH',
-    location: 'Bremen',
+    title: 'Industrieelektriker*in',
+    company: 'dormakaba Deutschland GmbH',
+    location: 'Bühl, Baden',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-13'
   },
   {
     id: '10',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'MK Industrieservice Leuna GmbH',
-    location: 'Schkopau',
+    title: 'Industrieelektriker*in',
+    company: 'BHK Tief- und Rohrbau GmbH & Co. KG',
+    location: 'Hamburg',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-13'
   },
   {
     id: '11',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Dornseifer Personalmanagement GmbH NL Leipzig',
-    location: 'Zwenkau',
+    company: 'BleckmannSchulze GmbH (Troisdorf)',
+    location: 'Niederkassel, Rhein',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-13'
   },
   {
     id: '12',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Office People Personalmanagment GmbH Unna',
-    location: 'Unna',
+    company: 'Piening GmbH (Kaiserslautern)',
+    location: 'Enkenbach-Alsenborn',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-12'
   },
   {
     id: '13',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Office People GmbH Niederlassung Stuhr Personaldienstleistungen',
-    location: 'Stuhr',
+    company: 'JobImpulse Nord GmbH Lüdenscheid',
+    location: 'Lüdenscheid',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-11'
   },
   {
     id: '14',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Office People Personalmanagement GmbH Hagen',
-    location: 'Hagen, Westfalen',
+    company: 'Sandmann Infrastruktur GmbH',
+    location: 'Sternberg, Mecklenburg',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-11'
   },
   {
     id: '15',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'expertum GmbH',
-    location: 'Schwäbisch Hall',
+    title: 'Industrieelektriker*in',
+    company: 'BHK Tief- und Rohrbau GmbH & Co. KG',
+    location: 'Bremerhaven',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-11'
   },
   {
     id: '16',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Office People Personalmanagment GmbH Unna',
-    location: 'Wickede (Ruhr)',
+    company: 'persona service AG & Co. KG',
+    location: 'Gettorf',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-09'
   },
   {
     id: '17',
-    title: 'Industrieelektriker m/w/d',
-    company: 'Arena Personal Management GmbH - Niederlassung Ludwigshafen',
-    location: 'Mannheim',
+    title: 'Industrieelektriker (m/w/d)',
+    company: 'DIEPA GmbH Filiale Wurzen',
+    location: 'Leipzig',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker m/w/d',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker (m/w/d)',
+    postedAt: '2026-03-09'
   },
   {
     id: '18',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'AlphaConsult Premium KG',
-    location: 'Paderborn',
+    company: 'Randstad Deutschland',
+    location: 'Berlin',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    postedAt: '2026-03-09'
   },
   {
     id: '19',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'Office People GmbH Niederlassung Bremerhaven Personaldienstleistungen',
-    location: 'Bremerhaven',
+    title: 'Industrieelektriker*in',
+    company: 'VGF - Stadtwerke Verkehrsgesellschaft Frankfurt am Main mbH',
+    location: 'Frankfurt am Main',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-09'
   },
   {
     id: '20',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'FERCHAU GmbH Niederlassung Nürnberg City',
-    location: 'Nürnberg, Mittelfranken',
+    title: 'Industrieelektriker*in',
+    company: 'Volkswagen',
+    location: 'Emden, Ostfriesland',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-09'
   },
   {
     id: '21',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'Expert Select GmbH',
-    location: 'Nürnberg, Mittelfranken',
+    title: 'Industrieelektriker*in',
+    company: 'Volkswagen',
+    location: 'Braunschweig',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-05'
+    description: 'Industrieelektriker*in',
+    postedAt: '2026-03-09'
   },
   {
     id: '22',
     title: 'Industrieelektriker (m/w/d)',
-    company: 'Expert Select GmbH',
-    location: 'Hannover',
+    company: 'tempster GmbH',
+    location: 'Augsburg, Bayern',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
     description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-05'
+    postedAt: '2026-03-08'
   },
   {
     id: '23',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'E-Max Aluminiumprofile GmbH',
-    location: 'Crailsheim',
+    title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    company: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
+    location: 'Salzgitter',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-04'
+    description: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    postedAt: '2026-03-08'
   },
   {
     id: '24',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'zeitkraft Gesellschaft für Personalservice mbH',
-    location: 'München',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-04'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
   },
   {
     id: '25',
-    title: 'Industrieelektriker (m/w/d)',
-    company: 'JobImpulse Süd GmbH Mainz',
-    location: 'Klein-Winternheim',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
     type: 'Vollzeit',
-    salary: 'Verhandelbar',
-    description: 'Industrieelektriker (m/w/d)',
-    postedAt: '2026-03-03'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
   }
 ];
 
